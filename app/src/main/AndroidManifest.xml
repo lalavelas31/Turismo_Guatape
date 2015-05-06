@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lauravelasquezcano.guatape_turismo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".publicidad"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hoteles"
+            android:label="@string/title_activity_hoteles" >
+        </activity>
+        <activity
+            android:name=".bares"
+            android:label="@string/title_activity_bares" >
+        </activity>
+        <activity
+            android:name=".sitios_turisticos"
+            android:label="@string/title_activity_sitios_turisticos" >
+        </activity>
+        <activity
+            android:name=".demografia"
+            android:label="@string/title_activity_demografia" >
+        </activity>
+        <activity
+            android:name=".acerca_de"
+            android:label="@string/title_activity_acerca_de" >
+        </activity>
+    </application>
+
+</manifest>
